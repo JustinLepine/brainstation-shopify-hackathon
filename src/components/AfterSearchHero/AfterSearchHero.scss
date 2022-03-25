@@ -1,0 +1,56 @@
+.searchHero {
+  display: flex;
+
+  &__hero {
+    width: 800px;
+    margin-bottom: -4px;
+  }
+
+  &__container {
+    background: #ffc96b;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
+  }
+
+  &__header-top {
+    margin-top: 5rem;
+  }
+
+  &__header {
+    line-height: 0;
+
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+  }
+
+  &__location-box {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+  }
+
+  &__location-icon {
+    height: 20px;
+    width: 16px;
+    padding-right: 1rem;
+  }
+
+  &__location-text {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  &__hello {
+    font-size: 12px;
+    width: 230px;
+  }
+
+  &__button {
+    width: 100px;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgb(194, 190, 190);
+  }
+}
