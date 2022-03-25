@@ -1,0 +1,46 @@
+
+
+
+@use '../../styles/partials/global' as *;
+
+.nav {
+    font-size: 0.95rem;
+    display: flex;
+    height: 2rem;
+    margin: 1rem 6rem;
+
+    &__left{
+        display: flex;
+    }
+
+    &__right{
+        display: flex;
+        margin-left: auto;
+    }
+
+    &__logo {
+        margin-right: 1.5rem;
+        height: 2rem;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-left: 1.1rem;
+    }
+
+    &__icon {
+        margin-left: 0.5rem;
+    }
+
+    &__button {
+        margin-left: 1rem;
+        margin-bottom: -0.4rem;
+        border: none;
+        background-color: #008060;
+        border-radius: 5px;
+        color: white;
+        padding: 0.5rem 1.2rem;align-self: center;
+    }
+}
