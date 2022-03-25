@@ -1,204 +1,209 @@
 .home {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3rem;
+
+  &__img {
+    margin: 4rem;
+    height: 20rem;
+  }
+
+  &__right {
+    margin: 6rem;
+    margin-left: 3rem;
+    width: 23rem;
+  }
+
+  &__hero-title {
+    font-weight: 700;
+  }
+
+  &__search-section {
+    display: flex;
+  }
+
+  &__search-link {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  &__hero-search {
+    display: flex;
+    border: solid 1px #a8aeb3;
+    border-radius: 4px;
+    padding: 0.3rem;
+  }
+
+  &__search-icon {
+    height: 1.2rem;
+  }
+
+  &__search-input {
+    border: none;
+  }
+
+  &__search-button {
+    margin-left: 1rem;
+    border: none;
+    background-color: #008060;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    align-self: center;
+  }
+
+  &__filters {
+    margin-top: 1rem;
+    display: flex;
+    width: fit-content;
+    border-radius: 8px;
+  }
+
+  &__filter-icon {
+    margin-top: 0.75rem;
+    height: 1.4rem;
+  }
+
+  &__barry {
+    // opacity: 0.7;
+    width: 100%;
+    background-image: url(../../assets/images/barry.png);
+    height: 23rem;
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out 0.5s;
     display: flex;
     justify-content: center;
-    padding: 2rem 3rem;
+    align-items: center;
+  }
 
-    &__img {
-        margin: 4rem;
-        height: 20rem;
-    }
+  &__barry-store {
+    background-color: #92e6b5;
+    // opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
 
-    &__right {
-        margin: 6rem;
-        margin-left: 3rem;
-        width: 23rem;
-    }
+  &__barry-store-title {
+    font-size: 1.7rem;
+  }
 
-    &__hero-title {
-        font-weight: 700;
-    }
+  &__barry-icon {
+    height: 1.5rem;
+    align-self: center;
+    margin-left: 2rem;
+  }
 
-    &__search-section {
-        display: flex;
-    }
+  &__barry-location {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
 
-    &__hero-search {
-        display: flex;
-        border: solid 1px #a8aeb3;
-        border-radius: 4px;
-        padding: 0.3rem ;
-    }
+  &__barry-button {
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+  }
 
-    &__search-icon {
-        height: 1.2rem;
-    }
+  &__julia {
+    // opacity: 0.7;
+    width: 100%;
+    background-image: url(../../assets/images/julia.png);
+    height: 23rem;
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__search-input {
-        border: none;
-    }
+  &__julia-store {
+    background-color: #ffc96b;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
 
-    &__search-button {
-        margin-left: 1rem;
-        border: none;
-        background-color: #008060;
-        border-radius: 5px;
-        color: white;
-        padding: 0.5rem 1.2rem;align-self: center;
-    }
+  &__kevin {
+    // opacity: 0.7;
+    width: 100%;
+    background-image: url(../../assets/images/kevin.png);
+    height: 23rem;
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__filters {
-        margin-top: 1rem;
-        display: flex;
-        width: fit-content;
-        border-radius: 8px;
-    }
+  &__kevin-store {
+    background-color: #ffc4b0;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
 
-    &__filter-icon {
-        margin-top: 0.75rem;
-        height: 1.4rem;
-    }
+  &__aria {
+    // opacity: 0.7;
+    width: 100%;
+    background-image: url(../../assets/images/aria.png);
+    height: 23rem;
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__barry {
-        // opacity: 0.7;
-        width: 100%;
-        background-image: url(../../assets/images/barry.png);
-        height: 23rem;
-        background-position: center;
-        background-size:cover;
-        transition: ease-in-out 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  &__aria-store {
+    background-color: #91e0d6;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
 
-    &__barry-store {
-        background-color: #92e6b5;
-        // opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 53rem;
-        height: 6rem;
-        border-radius: 5px;
-    }
+  &__sally {
+    // opacity: 0.7;
+    width: 100%;
+    background-image: url(../../assets/images/sally.png);
+    height: 23rem;
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__barry-store-title {
-        font-size: 1.7rem;
-    }
-
-    &__barry-icon {
-        height: 1.5rem;
-        align-self: center;
-        margin-left: 2rem;
-    }
-
-
-    &__barry-location {
-        margin-left: 1rem;
-        margin-right: 2rem;
-        font-size: 0.95rem;
-        font-weight: 600;
-    }
-
-    &__barry-button {
-        height: 2rem;
-        border: none;
-        border-radius: 3px;
-    }
-
-    &__julia {
-        // opacity: 0.7;
-        width: 100%;
-        background-image: url(../../assets/images/julia.png);
-        height: 23rem;
-        background-position: center;
-        background-size:cover;
-        transition: ease-in-out 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__julia-store {
-        background-color: #ffc96b;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 53rem;
-        height: 6rem;
-        border-radius: 5px;
-    }
-
-    &__kevin {
-        // opacity: 0.7;
-        width: 100%;
-        background-image: url(../../assets/images/kevin.png);
-        height: 23rem;
-        background-position: center;
-        background-size:cover;
-        transition: ease-in-out 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__kevin-store {
-        background-color: #ffc4b0;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 53rem;
-        height: 6rem;
-        border-radius: 5px;
-    }
-
-    &__aria {
-        // opacity: 0.7;
-        width: 100%;
-        background-image: url(../../assets/images/aria.png);
-        height: 23rem;
-        background-position: center;
-        background-size:cover;
-        transition: ease-in-out 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__aria-store {
-        background-color: #91e0d6;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 53rem;
-        height: 6rem;
-        border-radius: 5px;
-    }
-
-    &__sally {
-        // opacity: 0.7;
-        width: 100%;
-        background-image: url(../../assets/images/sally.png);
-        height: 23rem;
-        background-position: center;
-        background-size:cover;
-        transition: ease-in-out 0.5s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__sally-store {
-        background-color: #fdc9d0;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 53rem;
-        height: 6rem;
-        border-radius: 5px;
-    }
+  &__sally-store {
+    background-color: #fdc9d0;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53rem;
+    height: 6rem;
+    border-radius: 5px;
+  }
 }

@@ -9,12 +9,10 @@ function App() {
   return (
     <Router>
       <Nav />
-
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/search" exact component={AfterSearchPage} />
       </Switch>
-
       <Footer />
     </Router>
   );
