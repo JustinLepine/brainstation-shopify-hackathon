@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav/Nav';
+import Home from './pages/Home/Home'
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <Router>
       <Nav />
       <Switch>
-        {/* <Route path="/" exact component={Hero}> */}
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
 
